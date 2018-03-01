@@ -2,6 +2,9 @@
 Changelog for package raspigibbon_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.1 (2018-03-01)
+------------------
+
 0.2.0 (2018-03-01)
 ------------------
 * Fix problems which causes apt package empty
