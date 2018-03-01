@@ -1,0 +1,12 @@
+Source: ros-kinetic-raspigibbon-msgs
+Section: misc
+Priority: extra
+Maintainer: RT Coporation <shop@rt-net.jp>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-message-generation, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs
+Homepage: https://github.com/rt-net/RaspberryPiGibbon/wiki
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-raspigibbon-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-message-runtime, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs
+Description: The raspigibbon_msgs package
