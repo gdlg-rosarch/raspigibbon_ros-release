@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+  <remap from="/tf" to="/raspigibbon_on_rviz/tf"/>
+  <remap from="/tf_static" to="/raspigibbon_on_rviz/tf_static"/>
+  <remap from="/raspigibbon_on_rviz/master_joint_state" to="/raspigibbon/master_joint_state"/>
+  <group ns="raspigibbon_on_rviz">
+    <include file="$(find raspigibbon_description)/launch/display_urdf.launch"/>
+    <node name="rviz_joint_publisher" pkg="raspigibbon_bringup" type="rviz_joint_publisher.py"/>
+  </group>
+</launch>
